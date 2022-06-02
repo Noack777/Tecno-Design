@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.Login_AdminFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo_degradado_login_admin">
+
+        <ImageView
+            android:layout_width="@dimen/tamaniologologin"
+            android:layout_height="@dimen/tamaniologologin"
+            android:src="@drawable/logo_aph"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tituloadmin"
+            android:textSize="@dimen/tamaniotitulologin"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitleadmin1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/tamaniosubtitilologin"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nombreUsua"
+                android:layout_width="@dimen/anchologueo"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/white"
+                android:hint="@string/username"
+                android:minHeight="48dp"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:endIconMode = "password_toggle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/RContrasenia"
+                    android:layout_width="@dimen/anchologueo"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="@color/white"
+                    android:hint= "@string/Contraseña" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:endIconMode = "password_toggle">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/coContrasenia"
+                        android:layout_width="@dimen/anchologueo"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:backgroundTint="@color/white"
+                        android:hint="@string/confiContra" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="0dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorboton">
+
+                        <Button
+                            android:id="@+id/botonloginadmin"
+                            android:layout_width="@dimen/anchobotonlogin"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/purple_500"
+                            android:text="@string/botoningresar"
+                            android:textColor="@color/white"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="0dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/botones_registros" >
+
+                        <Button
+                            android:id="@+id/btnback"
+                            android:layout_width="149dp"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/purple_500"
+                            android:text="ATRAS"
+                            android:textColor="@color/white" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

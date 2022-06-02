@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.activities.InicioActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituloadmin1"
+                android:textSize="@dimen/tamaniotitulologin"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/fondo_degradado_auth">
+
+                <Button
+                    android:id="@+id/botoningreso"
+                    android:layout_width="@dimen/anchobotonlogin"
+                    android:layout_height="wrap_content"
+                    android:text="@string/botoningresar"
+                    android:textColor="@color/white"
+                    android:background="@drawable/boton_login"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/botonretiro"
+                    android:layout_width="@dimen/anchobotonlogin"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/botoningresar"
+                    android:textColor="@color/white"
+                    android:background="@drawable/boton_login"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/botonutimos_movimientos"
+                    android:layout_width="@dimen/anchobotonlogin"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/botoningresar1"
+                    android:textColor="@color/white"
+                    android:background="@drawable/boton_login"
+                    android:layout_gravity="center"/>
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logo_aph"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="100dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tecno-Design"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sistema de Informacion para el Control de Inventario</string>
+
+
+
+    <string name="bienvenidoInicio">Bienvenido</string>
+    <string name="subtituloInicio">¡Que no se escape nada de información!</string>
+    <string name="subtituloInicio2">Historia Clinica No</string>
+    <string name="numero">No.</string>
+    <string name="titulologin">Bienvenido a:</string>
+    <string name="subtitlelogin">Tecno-Design</string>
+    <string name="Usuario">Usuario</string>
+    <string name="botoningresar">INGRESAR</string>
+    <string name="botoningresar1">ULTIMOS MOVIMIENTOS</string>
+    <string name="ingresoAdmin">¿Aún no te registras? Registrate</string>
+    <string name="tituloadmin">Bienvenido !Registrate por acá!</string>
+    <string name="tituloadmin1">Sistema de Informacion para el Control de Inventario</string>
+    <string name="subtitleadmin1">Ingresa tu correo electronico y contraseña</string>
+    <string name="subtitleadmin2">de trabajo</string>
+    <string name="username">Correo Electronico</string>
+    <string name="correo">Correo Universitario</string>
+    <string name="codigoregistro">Código</string>
+    <string name="repiteelcodigo">Repite el Código</string>
+    <string name="registrar">¡Registralo!</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key">maps</string>
+    <string name="todo">TODO</string>
+    <string name="Contraseña">Ingresa tu contraseña</string>
+    <string name="confiContra">Confirma tu contraseña</string>
+    <string name="subtitle_inicio"> Ingresa los datos solicitados </string>
+    <string name="finalizar">GENERAR ARCHIVO</string>
+
+    <string name="titulo">TÉRMINOS Y CONDICIONES DE USO</string>
+
+    <string name="titulo_2">Tecno-Design</string>
+
+    <string name="terminos_condiciones_l1">Estimado usuario:</string>
+
+    <string name="terminos_condiciones_l18">Hecho por Tecno-Design:</string>
+    <string name="terminos_condiciones_l19">lorem10:</string>
+    <string name="terminos_condiciones_l20">lorem10:</string>
+
+    <string name="acepto_terminos">Aceptar</string>
+
+</resources>

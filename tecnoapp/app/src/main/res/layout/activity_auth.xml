@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.activities.AuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo_degradado_auth">
+
+        <ImageView
+            android:id="@+id/ivlogo_aph"
+            android:layout_width="@dimen/tamaniologologin"
+            android:layout_height="@dimen/tamaniologologin"
+            android:src="@drawable/logo_aph"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulologin"
+            android:textSize="@dimen/tamaniotitulologin"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitlelogin"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/tamaniosubtitilologin"/>
+
+        <EditText
+            android:id="@+id/codigologueo"
+            android:layout_width="@dimen/anchologueo"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="@string/Usuario"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           app:endIconMode="password_toggle">
+
+           <EditText
+               android:id="@+id/Contrasenia"
+               android:layout_width="@dimen/anchologueo"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="15dp"
+               android:backgroundTint="@color/white"
+               android:hint="@string/Contraseña"
+               android:inputType="textPassword"
+               android:minHeight="48dp"
+               android:textColor="@color/black"
+               android:visibility="visible"
+               app:passwordToggleEnabled="true"
+               tools:ignore="SpeakableTextPresentCheck"
+               tools:visibility="visible" />
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+
+        //boton para loguear el usuario
+        <Button
+            android:id="@+id/botonlogin"
+            android:layout_width="@dimen/anchobotonlogin"
+            android:layout_height="wrap_content"
+            android:text="@string/botoningresar"
+            android:textColor="@color/white"
+            android:background="@drawable/boton_login"
+            android:layout_gravity="center"/>
+
+        //boton para el ingreso del admin
+        <Button
+            android:id="@+id/botonadmin"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresoAdmin"
+            android:textColor="@color/white"
+            android:background="@drawable/boton_login"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
